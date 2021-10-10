@@ -1,0 +1,25 @@
+@import "_variables.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  min-width: 320px;
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+.table .thead-primary th {
+  background-color: $base-bg;
+  color: #ffffff;
+}
+.table {
+  border: 1px solid $base-bg;
+}
+.table th, .table td {
+  border-top-color: $base-bg;
+}
+.table-hover tbody tr:hover {
+  background-color: $base-bg-hover;
+}

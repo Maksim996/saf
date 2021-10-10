@@ -1,0 +1,10 @@
+$base-bg: rgb(0,31,90);
+$base-bg-hover: rgba(139,163,207,.1);
+//$base-bg-hover: rgba(202,215,234,1);
+//$base-bg-hover: rgba(139,163,207,1);
+$primary: $base-bg;
+
+$theme-colors: (
+    "primary": $primary,
+);
+
